@@ -17,7 +17,7 @@ To work with notes, Dendron uses  **lookups**. Lookups help you create, find, an
 ## Lookups
 Dendron supports lookups by keywords separated by spaces/' ' without having to know the order where the keywords occur in the note. As example: `dendron rename` & `rename dendron` will both match note `dendron.dev.design.commands.rename`.
 
-As mentioned in [[Details|dendron.topic.lookup#details]], the look up is accomplished through utilization of [fusejs](https://fusejs.io/). You can use [fusejs extended search](https://fusejs.io/examples.html#extended-search) syntax when looking up notes.  
+As mentioned in [[Details|dendron.topic.lookup#details-1]], the look up is accomplished through utilization of [fusejs](https://fusejs.io/). You can use [fusejs extended search](https://fusejs.io/examples.html#extended-search) syntax when looking up notes.  
 
 For entries that have the same score, Dendron will sort results by their last updated time. Further info on lookup syntax can be found in [[dendron.topic.lookup.find]]
 
