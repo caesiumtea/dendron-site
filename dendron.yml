@@ -23,7 +23,7 @@ workspace:
     vaults:
         -
             fsPath: vault
-            name: dendron.dendron-site
+            name: dendron-site
     journal:
         dailyDomain: daily
         name: journal
